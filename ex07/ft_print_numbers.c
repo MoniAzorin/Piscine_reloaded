@@ -25,9 +25,15 @@ void	ft_print_numbers(void)
 		digit++;
 	}
 }
+/*
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 int	main(void)
 {
 	ft_print_numbers();
 	return (0);
 }
+*/

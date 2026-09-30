@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/monicaazorinfernandez/Desktop/BCN42/piscine_reloaded/ex07",
+      "program": "/Users/monicaazorinfernandez/Desktop/BCN42/piscine_reloaded/ex07/build/Debug/outDebug"
+    }
+  ]
+}
