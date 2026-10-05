@@ -1,22 +1,23 @@
-#include <stdio.h>
-#include <limits.h>
 
-void    ft_ft(int *nbr)
+#include <limits.h>
+#include <stdio.h>
+
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }
 
-int main(void)
+int	main(void)
 {
-    int cases[] = {0, 1, -1, INT_MIN, INT_MAX};
+	int	cases[] = {0, 1, -1, INT_MIN, INT_MAX};
+	int	i;
 
-    for (int i = 0; i < 5; i++)
-    {
-  //      int n = cases[i];
-
-  //      ft_ft(&n);
-        ft_ft(&cases[i]);
-        printf("%d\n", cases[i]);
-    }
-    return 0;
+	i = 0;
+	while (i < 5)
+	{
+		ft_ft(&cases[i]);
+		printf("%d\n", cases[i]);
+		i++;
+	}
+	return (0);
 }

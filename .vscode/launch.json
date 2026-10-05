@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/monicaazorinfernandez/Desktop/BCN42/piscine_reloaded/ex07",
-      "program": "/Users/monicaazorinfernandez/Desktop/BCN42/piscine_reloaded/ex07/build/Debug/outDebug"
+      "cwd": "/Users/monicaazorinfernandez/Desktop/BCN42/piscine_reloaded/ex12",
+      "program": "/Users/monicaazorinfernandez/Desktop/BCN42/piscine_reloaded/ex12/build/Debug/outDebug"
     }
   ]
 }
