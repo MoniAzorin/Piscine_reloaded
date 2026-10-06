@@ -6,7 +6,7 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/04 15:52:27 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/04 15:57:12 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/06 17:59:54 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = tmp;
 }
-
+/*
 int	main(void)
 {
 	int	a = 1;
@@ -30,3 +30,4 @@ int	main(void)
 	printf("%d %d\n", a, b);
 	return (0);
 }
+*/
