@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mazorin <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/24 13:11:30 by mazorin           #+#    #+#             */
-/*   Updated: 2026/09/28 18:23:22 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/05 21:19:31 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,11 @@ void	ft_print_alphabet(void)
 	}
 }
 /*
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 int	main(void)
 {
 	ft_print_alphabet();

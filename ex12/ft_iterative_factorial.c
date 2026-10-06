@@ -6,11 +6,10 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 12:28:03 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/05 13:31:16 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/05 22:05:27 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <assert.h>
 #include <limits.h>
 
