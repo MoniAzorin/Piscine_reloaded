@@ -6,7 +6,7 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 12:28:03 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/05 22:05:27 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/08 17:49:39 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (result);
 }
-
+/*
 int	main(void)
 {
 	assert(ft_iterative_factorial(-1) == 0);
@@ -40,3 +40,4 @@ int	main(void)
 	assert(ft_iterative_factorial(INT_MIN) == 0);
 	return (0);
 }
+*/
