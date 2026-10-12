@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mazorin <mazorin@42barcelona.com>          +#+  +:+       +#+        */
+/*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 18:08:42 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/08 18:08:49 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/12 11:29:05 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <assert.h>
 

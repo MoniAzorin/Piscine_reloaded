@@ -6,7 +6,7 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/04 16:04:08 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/04 18:24:40 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/12 11:29:52 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ void	ft_putchar(char c);
 void	ft_is_negative(int n)
 {
 	if (n < 0)
-		write(1, 'N', 1);
+		ft_putchar('N');
 	else
-		write(1, 'P', 1);
+		ft_putchar('P');
 }
 /*
 void	ft_putchar(char c)

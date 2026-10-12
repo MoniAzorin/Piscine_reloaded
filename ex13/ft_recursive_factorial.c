@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mazorin <mazorin@42barcelona.com>          +#+  +:+       +#+        */
+/*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 21:15:08 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/08 19:35:56 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/12 13:01:32 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_recursive_factorial(int nb)
 		return (1);
 	else if (nb < 0 || nb > 12)
 		return (0);
-	return (nb = nb * ft_recursive_factorial(nb - 1));
+	return (nb * ft_recursive_factorial(nb - 1));
 }
 /*
 int	main(void)

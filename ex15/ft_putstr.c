@@ -6,7 +6,7 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 22:09:43 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/06 10:27:52 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/12 10:09:44 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_putstr(char *str)
 		str++;
 	}
 }
-
+/*
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -36,3 +36,4 @@ int	main(void)
 	ft_putstr("\n");
 	return (0);
 }
+*/
