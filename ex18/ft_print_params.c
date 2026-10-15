@@ -6,7 +6,7 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 22:04:41 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/12 22:56:08 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/14 13:22:55 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,26 +23,36 @@ void	ft_putstr(char *str)
 	}
 }
 
-void	ft_putchar(char c)
+/*void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
+*/
+int	main(int argc, char *argv[])
+{
+	int	i;
 
-int	main(int argc, char **argv)
+	i = 1;
+	while (i < argc)
+	{
+		ft_putstr(argv[i]);
+		ft_putchar('\n');
+		i++;
+	}
+	return (0);
+}
+
+/*int	main(int argc, char **argv)
 {
 	if (argc > 1)
 	{
 		argv++;
 		while (*argv)
 		{
-			while (**argv)
-			{
-				ft_putchar(**argv);
-				(*argv)++;
-			}
-			argv++;
+			ft_putstr(*argv);
 			ft_putchar('\n');
+			argv++;
 		}
 	}
 	return (0);
-}
+}*/

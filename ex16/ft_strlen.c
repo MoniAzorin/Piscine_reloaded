@@ -6,7 +6,7 @@
 /*   By: mazorin <mazorin@student.42barcelona.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 10:19:33 by mazorin           #+#    #+#             */
-/*   Updated: 2026/10/12 20:41:21 by mazorin          ###   ########.fr       */
+/*   Updated: 2026/10/14 13:23:40 by mazorin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,8 @@ int	ft_strlen(char *str)
 	int	len;
 
 	len = 0;
-	while (*str)
-	{
+	while (str[len])
 		len++;
-		str++;
-	}
 	return (len);
 }
 /*
